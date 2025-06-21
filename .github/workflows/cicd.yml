@@ -1,0 +1,11 @@
+name: CI/CD for Dockerized Flask App
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-and-test:
+    runs-on: u
